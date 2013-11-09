@@ -1,0 +1,3 @@
+[submodule "lib/Ashtree"]
+	path = lib/Ashtree
+	url = git@github.com:Akahadaka/Ashtree.git
