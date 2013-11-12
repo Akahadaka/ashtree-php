@@ -36,8 +36,7 @@ $htm->style = "
 // EMAIL THE FORM
 if (isset($_POST['submit'])) {
 	$mailer = new Ashtree_Common_Sendmail();
-	$mailer->to           = "beta+dea@snowball.co.za";
-	$mailer->to           = "march@turnbull.co.za";	
+	$mailer->to           = "beta+alpha@ashtree.co.za";
 	$mailer->from         = "{$_POST['name']} <{$_POST['email']}>";
 	$mailer->subject      = $mailer->title = "Protected Areas Database Contact";
 	$mailer->message      = <<<MAIL

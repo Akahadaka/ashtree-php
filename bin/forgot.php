@@ -10,7 +10,7 @@ $mdl = new Person_Model();
 
 if (isset($_POST['submit'])) {
 	if ($mdl->sendmail_forgot($_POST['email'])) {
-		Ashtree_Common_Message::message('success', 'Your new pasword has been sent to your email ' . $_POST['email']);
+		Ashtree_Common_Message::message('success', 'Your new password has been sent to your email ' . $_POST['email']);
 		$_SESSION['forgot'] = $_POST['email'];
 		redirect(ASH_BASENAME . 'login');
 	} else {

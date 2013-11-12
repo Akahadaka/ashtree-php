@@ -16,7 +16,7 @@ class Plugin_Jquery_Wysiwyg {
 	
 	}
 	
-	private function _Activate_Tiny_MCE($settings=NULL) {
+	private static function _Activate_Tiny_MCE($settings=NULL) {
 		$htm = Ashtree_Html_Page::instance();
 		
 		$htm->jss = ASH_LIB . 'tiny_mce/jquery.tinymce.js';
@@ -37,7 +37,7 @@ class Plugin_Jquery_Wysiwyg {
 
 	}
 	
-	private function _Tiny_MCE_Full() {
+	private static function _Tiny_MCE_Full() {
 		return "
 			//theme : 'advanced',
 			//plugins : 'autolink,lists,pagebreak,style,layer,table,save,advhr,advimage,advlink,emotions,iespell,inlinepopups,insertdatetime,preview,media,searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras,template,advlist',
@@ -62,7 +62,7 @@ class Plugin_Jquery_Wysiwyg {
 			//}";
 	}
 	
-	private function _Tiny_MCE_Default() {
+	private static function _Tiny_MCE_Default() {
 		return "
 			width : '100%',
 			theme : 'advanced',
