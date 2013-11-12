@@ -32,5 +32,9 @@ if [[ "$OS" == 'ubuntu' && ("$CODENAME" == 'lucid' || "$CODENAME" == 'precise') 
     apt-get install -y libcurl3 libcurl4-gnutls-dev >/dev/null
     echo 'Finished installing basic curl packages (Ubuntu only)'
 
+    echo 'Installing favourite apps (Ubuntu only)'
+    apt-get install -y vim >/dev/null
+    echo 'Finished installing favourite apps (Ubuntu only)'
+
     touch /.puphpet-stuff/ubuntu-required-libraries
 fi
