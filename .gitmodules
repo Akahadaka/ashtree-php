@@ -1,3 +1,24 @@
 [submodule "lib/Ashtree"]
 	path = lib/Ashtree
-	url = git@github.com:Akahadaka/Ashtree.git
+	url = git@github.com:AshtreeCC/Ashtree.git
+[submodule "plugins/jquery.anymenu"]
+	path = plugins/jquery.anymenu
+	url = git@github.com:AshtreeCC/jquery.anymenu.git
+[submodule "plugins/jquery.modal"]
+	path = plugins/jquery.modal
+	url = git@github.com:AshtreeCC/jquery.modal.git
+[submodule "plugins/google.analytics"]
+	path = plugins/google.analytics
+	url = git@github.com:AshtreeCC/google.analytics.git
+[submodule "plugins/google.maps"]
+	path = plugins/google.maps
+	url = git@github.com:AshtreeCC/google.maps.git
+[submodule "plugins/google.qaptcha"]
+	path = plugins/google.qaptcha
+	url = git@github.com:AshtreeCC/jquery.qaptcha.git
+[submodule "plugins/google.wysiwyg"]
+	path = plugins/google.wysiwyg
+	url = git@github.com:AshtreeCC/jquery.wysiwyg.git
+[submodule "plugins/wireframe.security"]
+	path = plugins/wireframe.security
+	url = git@github.com:AshtreeCC/wireframe.security.git
