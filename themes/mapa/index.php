@@ -1,5 +1,4 @@
 <?php
-
 $htm = Ashtree_Html_Page::instance();
 $tpl = Ashtree_Common_Template::instance();
 

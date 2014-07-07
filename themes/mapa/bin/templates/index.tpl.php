@@ -23,12 +23,7 @@
 		</div>
 		<div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
 			<div id="zone-branding" class="zone zone-branding clearfix container-12">
-				
-			</div>
-		</div>
-		<div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
-  			<div id="zone-menu" class="zone zone-menu clearfix container-12">
-  				<div class="grid-2 region region-branding" id="region-branding">
+				<div class="grid-10 region region-branding" id="region-branding">
 					<div class="region-inner region-branding-inner">
 						<div class="logo-img">
 							<a href="{$rootname}" rel="home" title="" class="active"><img src="{$rootname}{$theme}logo.png" alt="" id="logo" /></a>
@@ -36,7 +31,12 @@
 						{$region_branding_inner}
 					</div>
 				</div>
-    			<div class="grid-10 region region-menu" id="region-menu">
+			</div>
+		</div>
+		<div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  			<div id="zone-menu" class="zone zone-menu clearfix container-12">
+  				
+    			<div class="grid-12 region region-menu" id="region-menu">
   					<div class="region-inner region-menu-inner">
         				<nav class="navigation">
       						{$region_menu_inner}
