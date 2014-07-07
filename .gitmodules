@@ -16,8 +16,8 @@
 [submodule "plugins/google.qaptcha"]
 	path = plugins/google.qaptcha
 	url = git@github.com:AshtreeCC/jquery.qaptcha.git
-[submodule "plugins/google.wysiwyg"]
-	path = plugins/google.wysiwyg
+[submodule "plugins/jquery.wysiwyg"]
+	path = plugins/jquery.wysiwyg
 	url = git@github.com:AshtreeCC/jquery.wysiwyg.git
 [submodule "plugins/wireframe.security"]
 	path = plugins/wireframe.security

@@ -9,7 +9,7 @@ Plugin_Jquery_Anymenu::Activate();
 
 // Uses the TinyMCE Rich Text Editer
 // Use a textarea with the class "rte"
-Plugin_Jquery_Wysiwyg::Activate('tiny_mce');
+Plugin_Jquery_Wysiwyg::Activate('TinyMCE');
 
 // Insert Google Analytics
 #Plugin_Google_Analytics::Activate('123');
