@@ -13,8 +13,8 @@
 [submodule "plugins/google.maps"]
 	path = plugins/google.maps
 	url = git@github.com:AshtreeCC/google.maps.git
-[submodule "plugins/google.qaptcha"]
-	path = plugins/google.qaptcha
+[submodule "plugins/jquery.qaptcha"]
+	path = plugins/jquery.qaptcha
 	url = git@github.com:AshtreeCC/jquery.qaptcha.git
 [submodule "plugins/jquery.wysiwyg"]
 	path = plugins/jquery.wysiwyg
